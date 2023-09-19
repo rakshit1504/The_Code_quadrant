@@ -1,0 +1,90 @@
+/* Apply dark mode to the entire website */
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the container */
+.container {
+    width: 600px;
+    max-height: 400px;
+    padding: 40px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style for the form */
+#signup-form {
+    margin-top: 40px;
+}
+
+/* Style for form labels */
+.form-group label {
+    font-weight: bold;
+    display: block;
+}
+
+/* Style for form inputs and the visibility check button */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    outline: none;
+    background-color: #444;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin: 10px auto;
+}
+
+#toggle-password {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Style for the Sign Up button */
+button[type="submit"] {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style for error message */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Style for the Sign In link */
+p a {
+    text-decoration: none;
+    color: #ff5733;
+    font-size: 24px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
